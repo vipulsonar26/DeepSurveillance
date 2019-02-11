@@ -29,8 +29,8 @@ def convert_frames_to_video(pathIn,pathOut,fps):
     out.release()
  
 def main():
-    pathIn= '/home/aniruddha/DeepSurveillance-master/Frames/'
-    pathOut = '/home/aniruddha/DeepSurveillance-master/video1.avi'
+    pathIn= '/path where the frames are stored/'
+    pathOut = '/path where we want to store the result video(video_name.avi)'
     fps = 25.0
     convert_frames_to_video(pathIn, pathOut, fps)
  
